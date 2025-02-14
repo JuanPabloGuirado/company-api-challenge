@@ -78,6 +78,7 @@ Notes on creating a new adhesion:
 - All fields are required
 - The cuit must comply with the following numeric format `XX-XXXXXXXX-X`
 - The registration date must comply with the following numeric format `yyyy-MM-dd`
+- Before creating a new adhesion the logic checks if the field `cuit` in the request body has already an existing record in the database, if it does an exception will be thrown and the record will not be inserted
 
 
 ### TESTING LOCALLY
