@@ -18,7 +18,8 @@ This API allows managing companies and retrieving information about their adhesi
 GET `http://localhost:8099/companies/last-adhered`
 
 Response:
-```[
+```
+[
   {
     "razonSocial": "My Company S.A.",
     "fechaAdhesion": "2025-01-15",
