@@ -90,3 +90,8 @@ You can access the web console for H2 in `http://localhost:8099/h2-console`, and
 - select * from "company";
 
 - select * from "transaction";
+
+### Other considerations  
+Due to a lack of time there were a few things that were left out like more code coverage (in this case only the service layer was covered), adding some form of authentication logic(with Spring Security), adding a controller for manipulating transactions. 
+
+But all in all, the requirements were met while always considering the best principles and practices of code development.

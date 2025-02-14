@@ -1,7 +1,7 @@
 package com.ITPatagonia.javabackendchallenge.infrastructure.adapters.output.persistence.entity;
 
+import lombok.Builder;
 import lombok.Data;
-import lombok.ToString;
 import org.apache.commons.lang3.builder.EqualsExclude;
 import org.apache.commons.lang3.builder.HashCodeExclude;
 import org.apache.commons.lang3.builder.ToStringExclude;
@@ -12,6 +12,7 @@ import java.util.List;
 
 @Data
 @Entity
+@Builder
 @Table(name = "\"company\"")
 public class CompanyEntity {
 
