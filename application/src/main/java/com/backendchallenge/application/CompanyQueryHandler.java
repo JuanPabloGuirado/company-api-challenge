@@ -3,7 +3,6 @@ package com.backendchallenge.application;
 import com.backendchallenge.domain.entity.Company;
 import com.backendchallenge.domain.repository.CompanyRepository;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
