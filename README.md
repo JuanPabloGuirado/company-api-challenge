@@ -1,4 +1,4 @@
-# IT Patagonia backend challenge - Company Management API
+# Sooft backend challenge - Company Management API
 
 ## Overview
 This API allows managing companies and retrieving information about their adhesion and activity. It includes endpoints for fetching last month's adhered companies, last month's active companies, and creating a new company adhesion.
